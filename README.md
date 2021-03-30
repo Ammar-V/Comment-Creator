@@ -1,8 +1,10 @@
-This is a JavaFx program created for my high school staff. It is aimed at reducing the time to write report card comments at the end of the semester. The idea is that a teacher may set up their own database of comments, and when actually writing them, all they have to do is select a specific comment from their database, or let the program randomely decide. At the end of the process, the program outputs a paragraph comment that includes the name of the student and uses personal pronouns.
+This is a JavaFX program created for my high school staff. It is aimed at reducing the time to write report card comments at the end of the semester. The idea is that a teacher may set up their own database of comments, and when actually writing them, all they have to do is select a specific comment from their database, or let the program randomely decide. At the end of the process, the program outputs a paragraph comment that includes the name of the student and uses personal pronouns.
 
-To run the program, have Java 11 or higher installed and download all files into a specific folder. JavaFx SDK 11 or higher also needs to be downloaded into the application directory.
+To run the program, have Java 11 or higher installed and download the folder **CommentCreator**. JavaFX SDK 11 or higher also needs to be downloaded into the application directory.
 
 The current username is "user" and password is "pass"
+
+There is an example database already in the directory called "commentData.txt". Delete this file if you want to start fresh.
 
 The program has two main sections: the database handling system and an interface to actually create the comments.
 

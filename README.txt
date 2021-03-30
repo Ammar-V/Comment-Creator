@@ -1,1 +1,0 @@
-The username is "user" and password is "pass"

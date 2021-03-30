@@ -1,0 +1,360 @@
+
+
+Version:	3.12
+CmdLine:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\.
+Java min ver:	1.011.000_008
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_261
+Ignore:		1.008.000_261
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\11.0.8
+Check launcher:	C:\Program Files\Java\jdk-11.0.8\bin\javaw.exe (OK)
+Match:		1.011.000_008
+Check:		SOFTWARE\JavaSoft\JDK\13.0.2
+Check launcher:	C:\Program Files\Java\jdk-13.0.2\bin\javaw.exe (OK)
+Match:		1.013.000_002
+Check:		SOFTWARE\JavaSoft\JDK\15
+Check launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe (OK)
+Match:		1.015.000
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Check:		SOFTWARE\JavaSoft\JRE\9.0.4
+Ignore:		1.009.000_004
+Runtime used:	1.015.000 (64-bit)
+Set var:	_JAVA_OPTIONS = -Xmx512M
+Substitute:	EXEDIR = C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator
+Launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe
+Launcher args:	--module-path "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web,javafx.swt,javafx.swing -jar "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe"
+Args length:	314/32768 chars
+Exit code:	0
+
+
+Version:	3.12
+CmdLine:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\.
+Java min ver:	1.011.000_008
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_261
+Ignore:		1.008.000_261
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\11.0.8
+Check launcher:	C:\Program Files\Java\jdk-11.0.8\bin\javaw.exe (OK)
+Match:		1.011.000_008
+Check:		SOFTWARE\JavaSoft\JDK\13.0.2
+Check launcher:	C:\Program Files\Java\jdk-13.0.2\bin\javaw.exe (OK)
+Match:		1.013.000_002
+Check:		SOFTWARE\JavaSoft\JDK\15
+Check launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe (OK)
+Match:		1.015.000
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Check:		SOFTWARE\JavaSoft\JRE\9.0.4
+Ignore:		1.009.000_004
+Runtime used:	1.015.000 (64-bit)
+Set var:	_JAVA_OPTIONS = -Xmx512M
+Substitute:	EXEDIR = C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator
+Launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe
+Launcher args:	--module-path "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web,javafx.swt,javafx.swing -jar "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe"
+Args length:	314/32768 chars
+Error msg:	An error occurred while starting the application.
+
+
+Version:	3.12
+CmdLine:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\.
+Java min ver:	1.011.000_008
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_261
+Ignore:		1.008.000_261
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\11.0.8
+Check launcher:	C:\Program Files\Java\jdk-11.0.8\bin\javaw.exe (OK)
+Match:		1.011.000_008
+Check:		SOFTWARE\JavaSoft\JDK\13.0.2
+Check launcher:	C:\Program Files\Java\jdk-13.0.2\bin\javaw.exe (OK)
+Match:		1.013.000_002
+Check:		SOFTWARE\JavaSoft\JDK\15
+Check launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe (OK)
+Match:		1.015.000
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Check:		SOFTWARE\JavaSoft\JRE\9.0.4
+Ignore:		1.009.000_004
+Runtime used:	1.015.000 (64-bit)
+Set var:	_JAVA_OPTIONS = -Xmx512M
+Substitute:	EXEDIR = C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator
+Launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe
+Launcher args:	--module-path "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web,javafx.swt,javafx.swing -jar "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe"
+Args length:	314/32768 chars
+Error msg:	An error occurred while starting the application.
+
+
+Version:	3.12
+CmdLine:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\.
+Java min ver:	1.011.000_008
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_261
+Ignore:		1.008.000_261
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\11.0.8
+Check launcher:	C:\Program Files\Java\jdk-11.0.8\bin\javaw.exe (OK)
+Match:		1.011.000_008
+Check:		SOFTWARE\JavaSoft\JDK\13.0.2
+Check launcher:	C:\Program Files\Java\jdk-13.0.2\bin\javaw.exe (OK)
+Match:		1.013.000_002
+Check:		SOFTWARE\JavaSoft\JDK\15
+Check launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe (OK)
+Match:		1.015.000
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Check:		SOFTWARE\JavaSoft\JRE\9.0.4
+Ignore:		1.009.000_004
+Runtime used:	1.015.000 (64-bit)
+Set var:	_JAVA_OPTIONS = -Xmx512M
+Substitute:	EXEDIR = C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator
+Launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe
+Launcher args:	--module-path "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web,javafx.swt,javafx.swing -jar "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe"
+Args length:	314/32768 chars
+Error msg:	An error occurred while starting the application.
+
+
+Version:	3.12
+CmdLine:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\.
+Java min ver:	1.011.000_008
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_261
+Ignore:		1.008.000_261
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\11.0.8
+Check launcher:	C:\Program Files\Java\jdk-11.0.8\bin\javaw.exe (OK)
+Match:		1.011.000_008
+Check:		SOFTWARE\JavaSoft\JDK\13.0.2
+Check launcher:	C:\Program Files\Java\jdk-13.0.2\bin\javaw.exe (OK)
+Match:		1.013.000_002
+Check:		SOFTWARE\JavaSoft\JDK\15
+Check launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe (OK)
+Match:		1.015.000
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Check:		SOFTWARE\JavaSoft\JRE\9.0.4
+Ignore:		1.009.000_004
+Runtime used:	1.015.000 (64-bit)
+Set var:	_JAVA_OPTIONS = -Xmx512M
+Substitute:	EXEDIR = C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator
+Launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe
+Launcher args:	--module-path "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web,javafx.swt,javafx.swing -jar "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe"
+Args length:	314/32768 chars
+Error msg:	An error occurred while starting the application.
+
+
+Version:	3.12
+CmdLine:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\.
+Java min ver:	1.011.000_008
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_261
+Ignore:		1.008.000_261
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\11.0.8
+Check launcher:	C:\Program Files\Java\jdk-11.0.8\bin\javaw.exe (OK)
+Match:		1.011.000_008
+Check:		SOFTWARE\JavaSoft\JDK\13.0.2
+Check launcher:	C:\Program Files\Java\jdk-13.0.2\bin\javaw.exe (OK)
+Match:		1.013.000_002
+Check:		SOFTWARE\JavaSoft\JDK\15
+Check launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe (OK)
+Match:		1.015.000
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Check:		SOFTWARE\JavaSoft\JRE\9.0.4
+Ignore:		1.009.000_004
+Runtime used:	1.015.000 (64-bit)
+Set var:	_JAVA_OPTIONS = -Xmx512M
+Substitute:	EXEDIR = C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator
+Launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe
+Launcher args:	--module-path "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web,javafx.swt,javafx.swing -jar "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe"
+Args length:	314/32768 chars
+Error msg:	An error occurred while starting the application.
+
+
+Version:	3.12
+CmdLine:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\.
+Java min ver:	1.011.000_002
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_261
+Ignore:		1.008.000_261
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\11.0.8
+Check launcher:	C:\Program Files\Java\jdk-11.0.8\bin\javaw.exe (OK)
+Match:		1.011.000_008
+Check:		SOFTWARE\JavaSoft\JDK\13.0.2
+Check launcher:	C:\Program Files\Java\jdk-13.0.2\bin\javaw.exe (OK)
+Match:		1.013.000_002
+Check:		SOFTWARE\JavaSoft\JDK\15
+Check launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe (OK)
+Match:		1.015.000
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Check:		SOFTWARE\JavaSoft\JRE\9.0.4
+Ignore:		1.009.000_004
+Runtime used:	1.015.000 (64-bit)
+Set var:	_JAVA_OPTIONS = -Xmx512M
+Substitute:	EXEDIR = C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator
+Launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe
+Launcher args:	--module-path "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web,javafx.swt,javafx.swing -jar "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe"
+Args length:	314/32768 chars
+Error msg:	An error occurred while starting the application.
+
+
+Version:	3.12
+CmdLine:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\.
+Java min ver:	1.011.000_002
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_261
+Ignore:		1.008.000_261
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\11.0.8
+Check launcher:	C:\Program Files\Java\jdk-11.0.8\bin\javaw.exe (OK)
+Match:		1.011.000_008
+Check:		SOFTWARE\JavaSoft\JDK\13.0.2
+Check launcher:	C:\Program Files\Java\jdk-13.0.2\bin\javaw.exe (OK)
+Match:		1.013.000_002
+Check:		SOFTWARE\JavaSoft\JDK\15
+Check launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe (OK)
+Match:		1.015.000
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Check:		SOFTWARE\JavaSoft\JRE\9.0.4
+Ignore:		1.009.000_004
+Runtime used:	1.015.000 (64-bit)
+Set var:	_JAVA_OPTIONS = -Xmx512M
+Substitute:	EXEDIR = C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator
+Launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe
+Launcher args:	--module-path "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web,javafx.swt,javafx.swing -jar "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe"
+Args length:	314/32768 chars
+Error msg:	An error occurred while starting the application.
+
+
+Version:	3.12
+CmdLine:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\.
+Java min ver:	1.011.000_008
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_261
+Ignore:		1.008.000_261
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\11.0.8
+Check launcher:	C:\Program Files\Java\jdk-11.0.8\bin\javaw.exe (OK)
+Match:		1.011.000_008
+Check:		SOFTWARE\JavaSoft\JDK\13.0.2
+Check launcher:	C:\Program Files\Java\jdk-13.0.2\bin\javaw.exe (OK)
+Match:		1.013.000_002
+Check:		SOFTWARE\JavaSoft\JDK\15
+Check launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe (OK)
+Match:		1.015.000
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Check:		SOFTWARE\JavaSoft\JRE\9.0.4
+Ignore:		1.009.000_004
+Runtime used:	1.015.000 (64-bit)
+Set var:	_JAVA_OPTIONS = -Xmx512M
+Substitute:	EXEDIR = C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator
+Launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe
+Launcher args:	--module-path "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web,javafx.swt,javafx.swing -jar "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe"
+Args length:	314/32768 chars
+Exit code:	0
+
+
+Version:	3.12
+CmdLine:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\.
+Java min ver:	1.011.000_008
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_261
+Ignore:		1.008.000_261
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\11.0.8
+Check launcher:	C:\Program Files\Java\jdk-11.0.8\bin\javaw.exe (OK)
+Match:		1.011.000_008
+Check:		SOFTWARE\JavaSoft\JDK\13.0.2
+Check launcher:	C:\Program Files\Java\jdk-13.0.2\bin\javaw.exe (OK)
+Match:		1.013.000_002
+Check:		SOFTWARE\JavaSoft\JDK\15
+Check launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe (OK)
+Match:		1.015.000
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+Check:		SOFTWARE\JavaSoft\JRE\9.0.4
+Ignore:		1.009.000_004
+Runtime used:	1.015.000 (64-bit)
+Set var:	_JAVA_OPTIONS = -Xmx512M
+Substitute:	EXEDIR = C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator
+Launcher:	C:\Program Files\Java\jdk-15\bin\javaw.exe
+Launcher args:	--module-path "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web,javafx.swt,javafx.swing -jar "C:\Users\ammar\OneDrive\Desktop\IA Project Export\Comment Creator\CommentCreator.exe"
+Args length:	314/32768 chars
+Exit code:	0

@@ -1,0 +1,128 @@
+
+	.root
+	{
+		-fx-background-color: #2a2b2a;
+		
+		/* when selecting textboxes, choice boxes, etc.*/
+		-fx-accent: #2a2b2a;
+		-fx-faint-focus-color: transparent;
+		-fx-focus-color: indianred;
+		
+		/* when highlighting text in textareas.*/
+		-fx-highlight-fill: #2a2b2a;
+
+		/* hovering over choice box*/
+		-fx-hover-base: #d7d2ca;
+	
+	}
+	
+	/*Background image. */
+	.image{	-fx-image: url('../LoginScreen.jpg');}
+	
+	/*Choice box styling. */
+	.choice-box .context-menu {-fx-background-color: #f4f4ed;}
+	.choice-box {
+		-fx-background-color: #f4f4ed;
+		-fx-mark-color: #2a2b2a;
+		-fx-border-color: #a9a9a9;
+		-fx-background-insets: 1;
+		-fx-effect: dropshadow( one-pass-box, #d7d7d7, 5, 0.1,0, 2);
+		-fx-border-radius: 0.5mm;
+	}
+	
+	.choice-box:hover {	-fx-background-color: #d7d2ca;	}
+	
+	.choice-box:pressed{
+		-fx-background-color: #a9a9a9;
+		-fx-border-color: #a9a9a9;
+		-fx-background-insets: 0,0,0;
+		-fx-text-fill: #f4f4ed;
+		-fx-border-radius: 0.5mm;
+	}
+	
+	/*Button styling.*/
+	.button:hover { -fx-background-color: #d7d2ca;	}
+	
+	.button:focused{ -fx-background-color: #d7d2ca;	}
+	.button{
+		
+		-fx-background-color: #f4f4ed;
+		-fx-border-color: #a9a9a9;
+		-fx-background-insets: 1;
+		-fx-effect: dropshadow( one-pass-box, #d7d7d7, 5, 0.1,0, 2);
+		-fx-border-radius: 0.5mm;
+	}
+	
+	.button:pressed{
+		-fx-background-color: #a9a9a9;
+		-fx-border-color: #a9a9a9;
+		-fx-background-insets: 0,0,0;
+		-fx-text-fill: #f4f4ed;
+		-fx-border-radius: 0.5mm;
+	}
+	
+	
+	/*Colors for the placard-like box in the program. */
+	.front
+	{
+		-fx-background-color: #f4f4ed;
+		-fx-opacity: 0.9;
+		-fx-effect: dropshadow( one-pass-box, #d3d3d3, 10, 0.1,0, 0);
+		-fx-font-family: verdana;
+				
+	}
+	
+	.text-field{	
+		-fx-text-fill: #2a2b2a;
+		-fx-effect: dropshadow( one-pass-box, #d7d7d7, 5, 0.1,0, 2);
+		
+	}
+	
+	.title	{-fx-background-color: #2a2b2a;	}
+	
+	/*The main graphics for the table view which include its borders */
+	.table-view{ 
+		-fx-background-color: #fefefa;
+		-fx-border-color: #f4f4ed;
+		-fx-background-insets: 1;
+		-fx-effect: dropshadow( one-pass-box, #d7d7d7, 5, 0.1,0, 2);
+		
+	}
+	
+	/*Need to make the column header transparent using this so that the default look is gone. */
+	.table-view .column-header{ -fx-background-color: transparent;}
+	
+	/*Changing the default look of the table view column header */
+	.table-view .column-header-background{
+		-fx-background-color: #f0f0e9;
+		-fx-border-color: #a9a9a9 #f4f4ed #a9a9a9 #f4f4ed;
+		-fx-border-insets: 0,-1,0,-1;
+		-fx-effect: dropshadow( one-pass-box, #d7d7d7, 5, 0.1,0, 2);
+		}
+		
+	/*When hovering over the column header */
+	.table-view .column-header:hover{
+		-fx-background-color: #d7d2ca;
+		}
+		
+		/* This creates a border to only show seperation between columns */
+	.table-row-cell .table-cell {
+		-fx-table-cell-border-color: transparent;
+		-fx-border-color: transparent #a9a9a9 transparent #a9a9a9;
+		-fx-border-width: 0.1mm;
+	}
+		/*
+		.table-row-cell:odd{-fx-background-color: white;}
+		.table-row-cell:even{-fx-background-color: white;}
+		*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

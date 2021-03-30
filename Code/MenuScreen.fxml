@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="700.0" styleClass="root" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuScreen">   
+   <children>
+      <AnchorPane prefHeight="530.0" prefWidth="700.0" styleClass="root" stylesheets="@application.css">
+         <children>
+            <ImageView fitHeight="500.0" fitWidth="700.0" layoutY="30.0" pickOnBounds="true" styleClass="image" />
+            <AnchorPane layoutX="200.0" layoutY="81.0" prefHeight="400.0" prefWidth="300.0" styleClass="front" stylesheets="@application.css">
+               <children>
+                  <Button fx:id="commentBank" alignment="CENTER" contentDisplay="CENTER" layoutX="66.0" layoutY="200.0" onAction="#commentBank" prefHeight="40.0" prefWidth="166.0" text="View Comments" textAlignment="CENTER" textFill="#393b44">
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="creCom" alignment="CENTER" contentDisplay="CENTER" layoutX="58.0" layoutY="271.0" onAction="#createComment" prefHeight="40.0" prefWidth="182.0" text="Create New Comment" textAlignment="CENTER" textFill="#393b44">
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="40.0" layoutY="74.0" text="Main Menu" textAlignment="CENTER">
+                     <font>
+                        <Font name="Verdana Bold" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+      <HBox alignment="CENTER_RIGHT" onMouseDragged="#titleDrag" onMousePressed="#titleClicked" prefHeight="30.0" prefWidth="700.0" style="-fx-background-color: #2a2b2a;">
+         <children>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" translateX="-505.0">
+               <image>
+                  <Image url="@../title.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutY="2.0" text="Comment Creator" textAlignment="CENTER" textFill="#f4f4ed" translateX="-500.0">
+               <HBox.margin>
+                  <Insets top="1.0" />
+               </HBox.margin>
+            </Label>
+            <FontAwesomeIcon fill="#e6e8e6" glyphName="QUESTION_CIRCLE" onMouseClicked="#manual" onMouseEntered="#highlight" onMouseExited="#unHighlight" scaleX="2.0" scaleY="2.0" translateX="-27.0" />
+            <FontAwesomeIcon fill="#e6e8e6" glyphName="MINUS" onMouseClicked="#min" onMouseEntered="#highlight" onMouseExited="#unHighlight" scaleX="2.0" scaleY="2.0">
+               <HBox.margin>
+                  <Insets right="25.0" top="2.0" />
+               </HBox.margin>
+            </FontAwesomeIcon>
+            <FontAwesomeIcon fill="#fa003f" glyphName="CLOSE" onMouseClicked="#exit" onMouseEntered="#highlight" onMouseExited="#unHighlight" scaleX="2.0" scaleY="2.0" fx:id="xIcon">
+               <HBox.margin>
+                  <Insets bottom="3.0" right="10.0" top="3.0" />
+               </HBox.margin>
+            </FontAwesomeIcon>
+         </children>
+         <padding>
+            <Insets bottom="7.5" left="7.5" right="7.5" top="7.5" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>

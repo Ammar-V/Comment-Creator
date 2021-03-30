@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="150.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ConfirmBox">
+   <children>
+      <AnchorPane layoutY="34.0" prefHeight="120.0" prefWidth="300.0" style="-fx-background-color: #ebebe1;" styleClass="front" stylesheets="@application.css">
+         <children>
+            <Label layoutX="108.0" layoutY="30.0" text="Are you sure?">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="confirm" alignment="CENTER" layoutX="83.0" layoutY="79.0" mnemonicParsing="false" onAction="#conf" prefWidth="50.0" text="Yes" />
+            <Button fx:id="deny" alignment="CENTER" layoutX="167.0" layoutY="79.0" mnemonicParsing="false" onAction="#deny" prefWidth="50.0" text="No" />
+         </children>
+      </AnchorPane>
+      <HBox alignment="CENTER_RIGHT" onMouseDragged="#titleDrag" onMousePressed="#titleClicked" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: #2a2b2a;">
+         <children>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" translateX="-245.0">
+               <image>
+                  <Image url="@../title.png" />
+               </image>
+            </ImageView>
+            <FontAwesomeIcon fill="#fa003f" glyphName="CLOSE" onMouseClicked="#exit" onMouseEntered="#highlight" onMouseExited="#unHighlight" scaleX="2.0" scaleY="2.0" fx:id="xIcon">
+               <HBox.margin>
+                  <Insets bottom="3.0" right="10.0" top="3.0" />
+               </HBox.margin>
+            </FontAwesomeIcon>
+         </children>
+         <padding>
+            <Insets bottom="7.5" left="7.5" right="7.5" top="7.5" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>

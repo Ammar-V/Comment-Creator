@@ -1,0 +1,92 @@
+
+	
+	.root
+	{
+		-fx-background-color: #2a2b2a;
+		
+		
+		/* when selecting textboxes, comboboxes, etc.*/
+		-fx-accent: #2a2b2a;
+		-fx-faint-focus-color: transparent;
+		-fx-focus-color: indianred;
+		
+		/* when highlighting text in textareas.*/
+		-fx-highlight-fill: #2a2b2a;
+		
+		/* hovering over combo box*/
+		-fx-hover-base: #d7d2ca;
+	
+	}
+	.image{-fx-image: url('../darkBack.jpg');}
+	.choice-box .context-menu {-fx-background-color: #f4f4ed;}
+	.choice-box {
+		-fx-background-color: #f4f4ed;
+		-fx-border-color: #a9a9a9;
+		-fx-background-insets: 1;
+		-fx-effect: dropshadow( one-pass-box, #d7d7d7, 5, 0.1,0, 2);
+		-fx-border-radius: 0.5mm;
+	}
+	.choice-box:hover {
+    	-fx-background-color: #d7d2ca;
+	}
+	.choice-box:pressed{
+		-fx-background-color: #a9a9a9;
+		-fx-border-color: #a9a9a9;
+		-fx-background-insets: 0,0,0;
+		-fx-text-fill: #e4e6eb;
+		-fx-border-radius: 0.5mm;
+	}
+	
+	/*Button stuff*/
+	.button:hover {
+    	-fx-background-color: #d7d2ca;
+	}
+	
+	.button:focused{
+    	-fx-background-color: #d7d2ca;
+	}
+	.button{
+		
+		-fx-background-color: #2a2b2a;
+		-fx-border-color: #a9a9a9;
+		-fx-background-insets: 1;
+		-fx-effect: dropshadow( one-pass-box, #d7d7d7, 5, 0.1,0, 2);
+		-fx-border-radius: 0.5mm;
+	}
+	.button:pressed{
+		-fx-background-color: #a9a9a9;
+		-fx-border-color: #a9a9a9;
+		-fx-background-insets: 0,0,0;
+		-fx-text-fill: #f4f4ed;
+		-fx-border-radius: 0.5mm;
+	}
+	
+	.front
+	{
+
+		-fx-background-color: #2a2b2a;
+		-fx-opacity: 0.95;
+		-fx-border-color: #b19cd9;
+		-fx-font-family: verdana;
+		-fx-text-fill: white;
+				
+	}
+	.label{-fx-text-fill: #e4e6eb;}
+	
+	.textField
+	{
+		-fx-text-fill: #2a2b2a;
+	}
+	
+	.alert
+	{
+		-fx-background-color: #e43f5a ;
+	}
+	.title
+	{
+		-fx-background-color: #2a2b2a;
+	}
+	
+	
+	
+	

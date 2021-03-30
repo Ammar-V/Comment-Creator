@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CommentBank">   
+   <children>
+      <AnchorPane prefHeight="646.0" prefWidth="1000.0" styleClass="root" stylesheets="@application.css">
+         <children>
+            <ImageView fitHeight="646.0" fitWidth="1000.0" layoutY="1.0" pickOnBounds="true" styleClass="image" />
+            <AnchorPane layoutX="43.0" layoutY="101.0" prefHeight="502.0" prefWidth="914.0" styleClass="front" stylesheets="@application.css">
+               <children>
+                  <Button fx:id="back" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="468.0" onAction="#backButton" prefHeight="20.0" prefWidth="75.0" text="🢀 Back" textFill="#393b44">
+                     <font>
+                        <Font name="Verdana" size="13.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="13.0" layoutY="14.0" prefHeight="22.0" prefWidth="219.0" text="Select Unit / Module">
+                     <font>
+                        <Font name="Verdana Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="unitMenu" layoutX="13.0" layoutY="43.0" prefHeight="18.0" prefWidth="185.0" />
+                  <Button fx:id="addUnit" alignment="CENTER" layoutX="412.0" layoutY="44.0" mnemonicParsing="false" text="Add Unit / Module">
+                     <font>
+                        <Font name="Verdana" size="12.0" />
+                     </font></Button>
+                  <Button fx:id="delUnit" contentDisplay="CENTER" layoutX="558.0" layoutY="44.0" mnemonicParsing="false" onAction="#deleteUnit" text="Delete Unit / Module">
+                     <font>
+                        <Font name="Verdana" size="12.0" />
+                     </font></Button>
+                  <TableView fx:id="table" layoutX="14.0" layoutY="86.0" prefHeight="352.0" prefWidth="687.0" />
+                  <Button fx:id="deleteComment" alignment="CENTER" contentDisplay="CENTER" layoutX="715.0" layoutY="409.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="186.0" text="🗑 Delete Comment">
+                     <font>
+                        <Font name="Verdana" size="12.0" />
+                     </font></Button>
+                  <Button alignment="CENTER" contentDisplay="CENTER" layoutX="715.0" layoutY="341.0" mnemonicParsing="false" onAction="#addComment" prefHeight="18.0" prefWidth="186.0" text="➕ Add Comment">
+                     <font>
+                        <Font name="Verdana" size="12.0" />
+                     </font></Button>
+                  <TextField fx:id="createUnit" layoutX="221.0" layoutY="44.0" prefHeight="16.0" prefWidth="170.0" promptText="Create Unit / Module">
+                     <font>
+                        <Font name="Verdana" size="12.0" />
+                     </font></TextField>
+                  <Button fx:id="returnM" alignment="CENTER" contentDisplay="CENTER" layoutX="788.0" layoutY="468.0" onAction="#menu" prefHeight="20.0" prefWidth="111.0" text="☰ Main Menu" textFill="#393b44">
+                     <font>
+                        <Font name="Verdana" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="reStart" mnemonicParsing="false" text="Button" visible="false" />
+                  <Button alignment="CENTER" contentDisplay="CENTER" layoutX="715.0" layoutY="375.0" mnemonicParsing="false" onAction="#editComment" prefHeight="18.0" prefWidth="186.0" text="✎ Edit Comment">
+                     <font>
+                        <Font name="Verdana" size="12.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="758.0" layoutY="144.0" prefHeight="16.0" prefWidth="95.0" text="5 : Excellent" translateY="-9.0">
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="758.0" layoutY="169.0" text="4 : Profficient" translateY="-9.0">
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="758.0" layoutY="194.0" text="3 : Satisfactory" translateY="-9.0">
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="758.0" layoutY="218.0" text="2 : Poor" translateY="-9.0">
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="758.0" layoutY="243.0" text="1 : Insufficient" translateY="-9.0">
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="758.0" layoutY="268.0" text="0 : Summary" translateY="-9.0">
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="715.0" layoutY="88.0" prefHeight="234.0" prefWidth="186.0" style="-fx-border-color: #d7d2ca; -fx-border-style: none; -fx-border-width: 2;">
+                     <effect>
+                        <Glow level="1.0" />
+                     </effect>
+                  </Pane>
+               </children>
+            </AnchorPane>
+            <MenuBar layoutY="34.0" prefHeight="18.0" prefWidth="1000.0" styleClass="front">
+              <menus>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                        <MenuItem mnemonicParsing="false" onAction="#delComment" text="Delete Comment">
+                           <accelerator>
+                              <KeyCodeCombination alt="UP" code="DELETE" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                    <MenuItem mnemonicParsing="false" onAction="#undoDelete" text="↵ Undo &quot;Delete Comment&quot; ">
+                           <accelerator>
+                              <KeyCodeCombination alt="UP" code="Z" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <HBox alignment="CENTER_RIGHT" onMouseDragged="#titleDrag" onMousePressed="#titleClicked" prefHeight="30.0" prefWidth="1000.0" style="-fx-background-color: #2a2b2a;">
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" translateX="-805.0">
+                     <image>
+                        <Image url="@../title.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutY="2.0" text="Comment Creator" textAlignment="CENTER" textFill="#f4f4ed" translateX="-800.0">
+                     <HBox.margin>
+                        <Insets top="1.0" />
+                     </HBox.margin>
+                  </Label>
+                  <FontAwesomeIcon fill="#e6e8e6" glyphName="QUESTION_CIRCLE" onMouseClicked="#manual" onMouseEntered="#highlight" onMouseExited="#unHighlight" scaleX="2.0" scaleY="2.0" translateX="-27.0" />
+                  <FontAwesomeIcon fill="#e6e8e6" glyphName="MINUS" onMouseClicked="#min" onMouseEntered="#highlight" onMouseExited="#unHighlight" scaleX="2.0" scaleY="2.0">
+                     <HBox.margin>
+                        <Insets right="25.0" top="2.0" />
+                     </HBox.margin>
+                  </FontAwesomeIcon>
+                  <FontAwesomeIcon fill="#fa003f" glyphName="CLOSE" onMouseClicked="#exit" onMouseEntered="#highlight" onMouseExited="#unHighlight" scaleX="2.0" scaleY="2.0" fx:id="xIcon">
+                     <HBox.margin>
+                        <Insets bottom="3.0" right="10.0" top="3.0" />
+                     </HBox.margin>
+                  </FontAwesomeIcon>
+               </children>
+               <padding>
+                  <Insets bottom="7.5" left="7.5" right="7.5" top="7.5" />
+               </padding>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

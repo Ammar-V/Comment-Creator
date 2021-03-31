@@ -1,3 +1,5 @@
+#Comment Creator
+
 This is a JavaFX program created for my high school staff. It is aimed at reducing the time to write report card comments at the end of the semester. The idea is that a teacher may set up their own database of comments, and when actually writing them, all they have to do is select a specific comment from their database, or let the program randomely decide. At the end of the process, the program outputs a paragraph comment that includes the name of the student and uses personal pronouns.
 
 To run the program, have Java 11 or higher installed and download the folder **CommentCreator**. JavaFX SDK 11 or higher also needs to be downloaded into the application directory.

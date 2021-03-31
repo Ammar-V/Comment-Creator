@@ -4,7 +4,7 @@ This is a JavaFX program created for my high school staff. It is aimed at reduci
 
 To run the program, have Java 11 or higher installed and download the folder **CommentCreator**. JavaFX SDK 11 or higher also needs to be downloaded into the application directory.
 
-The current username is "user" and password is "pass"
+The current username is "user" and password is "pass".
 
 There is an example database already in the directory called "commentData.txt". Delete this file if you want to start fresh.
 
